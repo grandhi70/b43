@@ -22,6 +22,7 @@ elif Total_units > 200 and Total_units <= 300:
 elif Total_units > 75 and Total_units <= 200:
     eBill = Total_units * 2
     print(f"Your electricity Bill is: Rs.{eBill}")
+#added free for 75 units
 elif Total_units >= 0 and Total_units <= 75:
     eBill = Total_units * 0
     print(f"Your electricity Bill is: Rs.{eBill}")
